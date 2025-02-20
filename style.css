@@ -1,12 +1,12 @@
 /* Resetting margins and paddings, and enabling smooth scrolling */
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
     scroll-behavior: smooth; /* Smooth scrolling */
 }
   
-  /* Anchor links reset */
+  /* Anchor tag links reset */
 a {
     text-decoration: none; /* Removes underline from all links */
 }
@@ -75,7 +75,7 @@ body {
 .home {
     width: 100%; /* Full width */
     height: 90vh; /* 90% of the viewport height */
-    background-image: url(/images/raphael-rychetsky-li9JfUHQfOY-unsplash\ \(1\).jpg); /* Background image */
+    background-image: url(./images/raphael-rychetsky-li9JfUHQfOY-unsplash\ \(1\).jpg); /* Background image */
     background-size: cover; /* Makes the background image cover the entire section */
     background-position: center; /* Centers the background image */
     color: white; /* White text color */
