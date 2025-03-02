@@ -197,7 +197,8 @@ body {
   justify-content: center;
   height: 600px;
   width: 600px;
-  background-color: white; /* Changes background color on hover */
+  background-color: white;
+  /* Changes background color on hover */
   margin: 50px;
 }
 
@@ -230,7 +231,7 @@ body {
   /* Font size for the paragraph */
   margin-top: 20px;
   /* Adds space above the paragraph */
-  color: white ;
+  color: white;
 }
 
 
@@ -262,99 +263,87 @@ body {
   /* Adds space above the paragraph */
 }
 
-.services_container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding: 20px;
-  background-color: white;
-  gap: 100px;
-  border: 1px solid black;
 
-}
-.services h2 {
-  font-size: 30px;
+/*=================== Service Section Start =======================*/
+
+
+.services {
   margin-top: 20px;
-  padding-top: 30px;
-  color: #0288d1 ;
-}
-.servicesparagraph{
-  color: #0288d1;
-}
-
-.services_content {
-  width: 890px;
-  height: 250px;
+  width: 100%;
+  height: 60vh;
+  background-color: #e4dfdf;
   display: flex;
   flex-direction: column;
-  justify-content:space-between ;
-  align-items: flex-start;
-  padding: 10px;
-}
-
-.services_subtitle {
-  height: 35px;
-}
-
-.services_box {
-  background-color: #0288d1;
-  color: white;
-  width: 1200px;
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 10px;
-  border: 1px solid black;
-  padding: 25px;
-}
-
-.servicesimg {
-  width: 246px;
-  height: 250px;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.services .services-title {
+  padding-top: 20px;
+  font-size: 30px;
+  color: rgb(3, 89, 170);
 }
 
-/*product*/
+.services .services-subtitle {
+  font-size: 22px;
+  margin-bottom: 15px;
+  
+}
+.swiper {
+  width: 90%;
+  height: auto;
+}
+
+
+.swiper-wrapper .slide {
+  display: flex;
+  gap: 20px;
+  padding: 18px; 
+  border-radius: 20px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.5px);
+-webkit-backdrop-filter: blur(9.5px);
+border: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+.swiper-slide .slide-img {
+  width: 650px;
+  height: 300px;
+}
+
+.slide .slide-content {
+
+}
+
+/*=================== Service Section End =======================*/
+
+
+/*=================== product =======================*/
 .product {
   width: 100%;
   height: auto;
   background-color: #0288d1;
 }
+
 .product h2 {
   font-size: 30px;
   margin-top: 20px;
   padding-top: 30px;
   color: white;
 }
-.productparagraph{
+
+.productparagraph {
   color: white;
 }
+
 .product_container {
   width: 100%;
   height: auto;
 }
+
 .product_box {
   width: 100%;
   height: auto;
@@ -363,21 +352,25 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .product_content {
   width: 350px;
   height: 450px;
   background-color: white;
   margin: 50px;
 }
+
 .productimg {
   width: 344px;
   height: 245px;
   border-radius: 50%;
   border: 1px solid black;
 }
+
 .contentparagraph {
   height: 100px;
 }
+
 /* Resources Section */
 .resources {
   background-color: #0288d1;
@@ -405,6 +398,7 @@ body {
   margin-top: 20px;
   /* Adds space above the paragraph */
 }
+
 .resources_container {
   display: flex;
   justify-content: center;
@@ -412,6 +406,7 @@ body {
   gap: 100px;
   height: auto;
 }
+
 .resourcesbox {
   display: flex;
   flex-direction: column;
@@ -438,7 +433,7 @@ body {
   /* Padding inside the section */
   text-align: center;
   /* Centers the content */
-height: auto;
+  height: auto;
 }
 
 /* Contact Section Heading */
@@ -456,6 +451,7 @@ height: auto;
   margin-top: 20px;
   /* Adds space above the paragraph */
 }
+
 .contact-container {
   padding: 20px;
 }
@@ -476,7 +472,8 @@ label {
   font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
@@ -506,7 +503,7 @@ textarea {
 
 @media (max-width: 600px) {
   .form-row {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -544,7 +541,8 @@ footer {
   color: white;
   margin-right: 10px;
 }
-.footer-bottom a{
+
+.footer-bottom a {
   color: white;
 }
 
@@ -556,7 +554,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .footer-top, .footer-bottom {
-      grid-template-columns: 1fr;
+
+  .footer-top,
+  .footer-bottom {
+    grid-template-columns: 1fr;
   }
 }

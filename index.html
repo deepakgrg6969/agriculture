@@ -1,265 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link of Swiperjs for Slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Agriculture Cooperative</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <title>Agriculture Cooperative</title>
-</head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="#">
+          <h3 class="logo">AgricultureCoop</h3>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#product">Products & Services</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav class="navigation">
-      <a href="#">
-        <h3 class="logo">AgricultureCoop</h3>
-      </a>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#product">Products & Services</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="home" id="home">
-    <div class="hero-content">
-      <h1>Welcome to Agriculture Cooperative</h1>
-      <p>Empowering farmers, improving agriculture, and growing together!</p>
-      <a href="#about" class="cta-button">Learn More</a>
-    </div>
-  </section>
-
-  <!----- ABOUT SECTION-->
-
-  <section class="about" id="about">
-    <h2>About Us</h2>
-    <p class="aboutpara">We are committed to supporting local farmers and creating a sustainable future for agriculture.
-    </p>
-    <div class="aboutbox1">
-      <div class="aboutbox2">
-        <h3>Our Mission</h3>
-        <img src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg" alt="meeting" class="aboutimg">
-        <p>JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。</p>
-        <a href="info1" class="cta-button">learn More</a>
+    <section class="home" id="home">
+      <div class="hero-content">
+        <h1>Welcome to Agriculture Cooperative</h1>
+        <p>Empowering farmers, improving agriculture, and growing together!</p>
+        <a href="#about" class="cta-button">Learn More</a>
       </div>
-      <div class="aboutbox2">
-        <h3>Our Values</h3>
-        <img src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg" alt="vegetables to the customer" class="aboutimg">
-        <p>私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。</p>
-        <a href="info1" class="cta-button">learn More</a>
+    </section>
+
+    <!----- ABOUT SECTION-->
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p class="aboutpara">
+        We are committed to supporting local farmers and creating a sustainable
+        future for agriculture.
+      </p>
+      <div class="aboutbox1">
+        <div class="aboutbox2">
+          <h3>Our Mission</h3>
+          <img
+            src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg"
+            alt="meeting"
+            class="aboutimg"
+          />
+          <p>
+            JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
+        <div class="aboutbox2">
+          <h3>Our Values</h3>
+          <img
+            src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg"
+            alt="vegetables to the customer"
+            class="aboutimg"
+          />
+          <p>
+            私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
       </div>
-    </div>
 
-    <!----- PRODUCT & SERVICES SECTION-->
+      <!----- PRODUCT & SERVICES SECTION-->
+    </section>
+    <section class="productandservices" id="product">
+      <h2>Products & Services</h2>
+      <p>
+        Explore a variety of products and services designed to meet your
+        agricultural needs.
+      </p>
+      <!----  PRODUCT -->
+      <section class="product">
+        <h2>JA みやぎ角田の特産物</h2>
+        <p class="productparagraph">Special Product</p>
+        <div class="product_container">
+          <div class="product_box">
+            <div class="product_content">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                alt="animatedimage"
+                class="productimg"
+              />
+              <h3>VEGETABLES & FRUITS</h3>
+              <p class="contentparagraph">
+                carrots, raddish, onion, spinach, tomato, cabbage, potato, etc..
+              </p>
+              <a href="#product" class="cta-button">Learn More</a>
+            </div>
+            <div class="product_content">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                alt="animatedimage"
+                class="productimg"
+              />
+              <h3>RICE</h3>
+              <p class="contentparagraph">rice, paddy , millet, wheat, etc..</p>
+              <a href="#product" class="cta-button">Learn More</a>
+            </div>
+            <div class="product_content">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                alt="animatedimage"
+                class="productimg"
+              />
+              <h3>MEATS & EGGS</h3>
+              <p class="contentparagraph">
+                beef meats, checken meats, bacon, eggs, etc..
+              </p>
+              <a href="#product" class="cta-button">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  </section>
-  <section class="productandservices" id="product">
-    <h2>Products & Services</h2>
-    <p>Explore a variety of products and services designed to meet your agricultural needs.</p>
-    <!----  PRODUCT -->
-    <section class="product">
-      <h2>JA みやぎ角田の特産物 </h2>
-      <p class="productparagraph">Special Product</p>
-      <div class="product_container">
-        <div class="product_box">
-          <div class="product_content">
-            <img src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg" alt="animatedimage" class="productimg">
-            <h3>VEGETABLES & FRUITS</h3>
-            <p class="contentparagraph">carrots, raddish, onion, spinach, tomato, cabbage, potato, etc..</p>
-            <a href="#product" class="cta-button">Learn More</a>
-          </div>
-          <div class="product_content">
-            <img src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg" alt="animatedimage" class="productimg">
-            <h3>RICE</h3>
-            <p class="contentparagraph">rice, paddy , millet, wheat, etc..</p>
-            <a href="#product" class="cta-button">Learn More</a>
-          </div>
-          <div class="product_content">
-            <img src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg" alt="animatedimage" class="productimg">
-            <h3>MEATS & EGGS</h3>
-            <p class="contentparagraph">beef meats, checken meats, bacon, eggs, etc..</p>
-            <a href="#product" class="cta-button">Learn More</a>
-          </div>
+      <!----  SERIVCES -->
+      <section class="services" id="services">
+        <h2 class="services-title">JA みやぎ角田のサービス</h2>
+        <p class="services-subtitle">Special services</p>
+        <!-- Swiper -->
+        <div class="swiper  mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                class="slide-img"
+              />
+              <div class="slide-content">
+                <h3 class="slide-title">
+                  Savings & Deposits (預金・貯金)
+                </h3>
+                <p class="slide-subtitle">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Repellendus vero voluptatem veniam sed, hic, placeat incidunt
+                  inventore magni aut culpa ex, ad quibusdam voluptatibus esse
+                  aliquid voluptate. Laboriosam, odit atque?
+                </p>
+                <a href="info1" class="cta-button">learn More</a>
+              </div>
+            </div>
 
+            <div class="swiper-slide slide">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                class="slide-img"
+              />
+              <div class="slide-content">
+                <h3 class="slide-title">
+                  Savings & Deposits (預金・貯金)
+                </h3>
+                <p class="slide-subtitle">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Repellendus vero voluptatem veniam sed, hic, placeat incidunt
+                  
+                </p>
+                <a href="info1" class="cta-button">learn More</a>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+              <img
+                src="./images/raphael-rychetsky-li9JfUHQfOY-unsplash (1).jpg"
+                class="slide-img"
+              />
+              <div class="slide-content">
+                <h3 class="slide-title">
+                  Savings & Deposits (預金・貯金)
+                </h3>
+                <p class="slide-subtitle">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Repellendus vero voluptatem veniam sed, hic, placeat incidunt
+                  inventore magni aut culpa ex, ad quibusdam voluptatibus esse
+                  aliquid voluptate. Laboriosam, odit atque?
+                </p>
+                <a href="info1" class="cta-button">learn More</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </section>
+
+    <!-----  RESOURCES SECTION  ------>
+    <section class="resources" id="resources">
+      <h2>Resources</h2>
+      <p>
+        Access valuable resources that help farmers stay informed and efficient.
+      </p>
+      <div class="resources_container">
+        <div class="resourcesbox">
+          <img
+            src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg"
+            alt="tools"
+            class="resourcesimg"
+          />
+          <h3>Farming Tools and Guides (農業ツールとガイド)</h3>
+          <p>
+            JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
+        <div class="resourcesbox">
+          <img
+            src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg"
+            alt="governmentresources"
+            class="resourcesimg"
+          />
+          <h3>Government Resources (政府リソース)</h3>
+          <p>
+            私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
+        <div class="resourcesbox">
+          <img
+            src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg"
+            alt="Financialeducation"
+            class="resourcesimg"
+          />
+          <h3>Financial Education (金融教育)</h3>
+          <p>
+            JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
+        <div class="resourcesbox">
+          <img
+            src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg"
+            alt="Support"
+            class="resourcesimg"
+          />
+          <h3>Community Support (地域支援)</h3>
+          <p>
+            私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
+        </div>
+        <div class="resourcesbox">
+          <img
+            src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg"
+            alt="Network"
+            class="resourcesimg"
+          />
+          <h3>Farmers' Network (農家ネットワーク)</h3>
+          <p>
+            私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。
+          </p>
+          <a href="info1" class="cta-button">learn More</a>
         </div>
       </div>
     </section>
 
-    <!----  SERIVCES -->
-    <section class="services">
-      <h2>JA みやぎ角田のサービス</h2>
-      <p class="servicesparagraph">Special services</p>
-      <!-- Swiper -->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Have any questions? Reach out to us!</p>
+      <div class="contact-container">
+        <form>
+          <!-- First Name & Last Name -->
+          <div class="form-row">
+            <div class="input-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
+            <div class="input-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
+          </div>
 
+          <!-- Phone & Email -->
+          <div class="form-row">
+            <div class="input-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <!-- Message Box -->
+          <div class="input-group" style="margin-bottom: 20px">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
     </section>
-  </section>
 
-  <!-----  RESOURCES SECTION  ------>
-  <section class="resources" id="resources">
-    <h2>Resources</h2>
-    <p>Access valuable resources that help farmers stay informed and efficient.</p>
-    <div class="resources_container">
-      <div class="resourcesbox">
-        <img src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg" alt="tools" class="resourcesimg">
-        <h3>Farming Tools and Guides (農業ツールとガイド)</h3>
-        <p>JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。</p>
-        <a href="info1" class="cta-button">learn More</a>
-      </div>
-      <div class="resourcesbox">
-        <img src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg" alt="governmentresources" class="resourcesimg">
-        <h3>Government Resources (政府リソース)</h3>
-        <p>私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。</p>
-        <a href="info1" class="cta-button">learn More</a>
-      </div>
-      <div class="resourcesbox">
-        <img src="./images/shelley-pauls-Zaiuy5dKeCk-unsplash.jpg" alt="Financialeducation" class="resourcesimg">
-        <h3>Financial Education (金融教育)</h3>
-        <p>JA角田は、地域農業者を支援し、持続可能な農業を推進することで、組合員の経済的安定と地域社会の発展を目指します。</p>
-        <a href="info1" class="cta-button">learn More</a>
-      </div>
-      <div class="resourcesbox">
-        <img src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg" alt="Support" class="resourcesimg">
-        <h3>Community Support (地域支援)</h3>
-        <p>私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。</p>
-        <a href="info1" class="cta-button">learn More</a>
-      </div>
-      <div class="resourcesbox">
-        <img src="./images/zoe-richardson-siD6uufCyt8-unsplash.jpg" alt="Network" class="resourcesimg">
-        <h3>Farmers' Network (農家ネットワーク)</h3>
-        <p>私たちは、協力、持続可能性、信頼を基盤に、地域社会との絆を深め、環境に配慮した農業を実現します。</p>
-        <a href="info1" class="cta-button">learn More</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Have any questions? Reach out to us!</p>
-    <div class="contact-container">
-      <form>
-
-        <!-- First Name & Last Name -->
-        <div class="form-row">
-          <div class="input-group">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" required>
-          </div>
-          <div class="input-group">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" required>
-          </div>
+    <footer>
+      <div class="footer-top">
+        <!-- Company Info & Map -->
+        <div>
+          <h3>農協角田支店</h3>
+          <p>
+            住所: 宮城県角田市角田字町 123<br />
+            📞 電話番号: 012-3456-7890<br />
+            ⏰ 営業時間: 平日 9:00～15:00
+          </p>
         </div>
-
-        <!-- Phone & Email -->
-        <div class="form-row">
-          <div class="input-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
-          </div>
-          <div class="input-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-        </div>
-
-        <!-- Message Box -->
-        <div class="input-group" style="margin-bottom: 20px;">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-
-        <!-- Submit Button -->
-        <button type="submit" class="submit-btn">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-top">
-      <!-- Company Info & Map -->
-      <div>
-        <h3>農協角田支店</h3>
-        <p>住所: 宮城県角田市角田字町 123<br>
-          📞 電話番号: 012-3456-7890<br>
-          ⏰ 営業時間: 平日 9:00～15:00</p>
-      </div>
-      <div class="map">
-        <!-- Add map iframe here -->
-        <h3>Location</h3>
-        <img src="./images/map-image.png" class="map">
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <!-- Social -->
-      <div>
-        <h4>Follow Us</h4>
-        <div class="social">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+        <div class="map">
+          <!-- Add map iframe here -->
+          <h3>Location</h3>
+          <img src="./images/map-image.png" class="map" />
         </div>
       </div>
 
-      <!-- Links Section -->
-      <div class="footer-links">
-        <h3>Links</h3>
-        <ul type="none">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
+      <div class="footer-bottom">
+        <!-- Social -->
+        <div>
+          <h4>Follow Us</h4>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Links Section -->
+        <div class="footer-links">
+          <h3>Links</h3>
+          <ul type="none">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Section -->
+        <div class="footer-services">
+          <h3>Services</h3>
+          <ul type="none">
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Custom Solutions</a></li>
+            <li><a href="#">Training</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal Section -->
+        <div class="footer-legal">
+          <h3>Legal</h3>
+          <ul type="none">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
       </div>
-
-      <!-- Services Section -->
-      <div class="footer-services">
-        <h3>Services</h3>
-        <ul type="none">
-          <li><a href="#">Consulting</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Custom Solutions</a></li>
-          <li><a href="#">Training</a></li>
-        </ul>
-      </div>
-
-      <!-- Legal Section -->
-      <div class="footer-legal">
-        <h3>Legal</h3>
-        <ul type="none">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Cookie Policy</a></li>
-          <li><a href="#">Disclaimer</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="copyright">
-      © 2023 Company Name. All rights reserved.
-    </div>
-  </footer>
-
-
-</body>
-
+      <div class="copyright">© 2023 Company Name. All rights reserved.</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

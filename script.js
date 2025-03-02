@@ -1,12 +1,21 @@
 var swiper = new Swiper(".mySwiper", {
-    cssMode: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+  spaceBetween: 20,
+  grabCursor: true,
+  loop: true,
+  cssMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  breakpoints: {
+    1020: {
+        slidesPerView: 2,
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    mousewheel: true,
-    keyboard: true,
-  });
+},
+  mousewheel: true,
+  keyboard: true,
+});
