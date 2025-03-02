@@ -261,6 +261,7 @@ body {
   margin-top: 20px;
   /* Adds space above the paragraph */
 }
+
 .services_container {
   width: 100%;
   height: auto;
@@ -312,6 +313,27 @@ body {
 .servicesimg {
   width: 246px;
   height: 250px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*product*/
