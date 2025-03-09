@@ -1,5 +1,4 @@
 var swiper = new Swiper(".mySwiper", {
-
     spaceBetween: 20,
     grabCursor: true,
     loop: true,
@@ -33,5 +32,4 @@ var swiper = new Swiper(".mySwiper", {
 
 function toggleNav() {
   document.getElementById("sideNav").classList.toggle("active");
-
 }
