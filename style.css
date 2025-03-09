@@ -103,44 +103,13 @@ body {
   transition: 0.5s;
   /* Smooth transition effect for hover states */
 }
-.hamburger-icon {
-  display: none;
+#menu-btn {
+  /* display: none; */
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
   cursor: pointer;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  z-index: 100;
+  color: rgb(180, 40, 40);
 }
-
-.hamburger-icon div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px 0;
-}
-.side-nav{
-  display: none;
-}
-
-
-
-/* --media */
-@media screen and (max-width: 768px) {
-  .nav-links{
-      display: none;
-  }
-
-  .hamburger-icon {
-      display: block;
-  }
-
-  /* Show sidebar when active class is added */
-  .side-nav.active {
-      width: 250px;
-  }
-  
-}
-
 /*------------------------- navigation on the side --------------------------*/
 
 /* Home Section */
