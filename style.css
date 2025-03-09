@@ -38,7 +38,7 @@ body {
   /* White text color */
   padding: 15px 100px;
   /* Adds padding around the header content */
-  z-index: 1000;
+  z-index: 10;
   /* Ensures the navigation is on top of other elements */
   display: flex;
   /* Flexbox for layout */
@@ -104,11 +104,12 @@ body {
   /* Smooth transition effect for hover states */
 }
 #menu-btn {
-  /* display: none; */
+  display: none;
   font-size: 2.5rem;
   margin-left: 1.7rem;
   cursor: pointer;
-  color: rgb(180, 40, 40);
+  color: #fdfdfde3;
+  z-index: 100;
 }
 /*------------------------- navigation on the side --------------------------*/
 
@@ -517,11 +518,7 @@ textarea {
   background-color: #45a049;
 }
 
-@media (max-width: 600px) {
-  .form-row {
-    flex-direction: column;
-  }
-}
+
 
 /* Footer */
 footer {
@@ -569,10 +566,68 @@ footer {
   border-top: 1px solid #555;
 }
 
-@media (max-width: 768px) {
+
+
+
+
+/* for responsive design */
+
+@media screen and (max-width: 1024px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .navigation {
+    padding: 10px 30px;  
+  }
+  .navigation .nav-links {
+    position: absolute;
+    top: 103%;
+    right: -110%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    background: #fffafc;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navigation .nav-links.active {
+    right: 1rem;
+    transition: 0.4s linear;
+  }
+  .navigation .nav-links li a{
+    display: flex;
+    color: #0288d1;
+  }
+ 
+}
+@media (max-width:450px) {
+  .navigation {
+    padding: 10px 60px;  
+ 
+  html {
+    font-size: 60%;
+  }
+ 
+}
+
+
+/* @media (max-width: 768px) {
+
+    #menu-btn {
+      display: block;
+    }
+
 
   .footer-top,
   .footer-bottom {
     grid-template-columns: 1fr;
   }
 }
+
+
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+} */
