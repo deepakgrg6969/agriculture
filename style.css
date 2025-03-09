@@ -103,47 +103,8 @@ body {
   transition: 0.5s;
   /* Smooth transition effect for hover states */
 }
-.hamburger-icon {
-  display: none;
-  cursor: pointer;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  z-index: 100;
-}
-
-.hamburger-icon div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px 0;
-}
-.side-nav{
-  display: none;
-}
-
-
-
-/* --media */
-@media screen and (max-width: 768px) {
-  .nav-links{
-      display: none;
-  }
-
-  .hamburger-icon {
-      display: block;
-  }
-
-  /* Show sidebar when active class is added */
-  .side-nav.active {
-      width: 250px;
-  }
   
-}
-
-/*------------------------- navigation on the side --------------------------*/
-
-/* Home Section */
+  /* Home Section */
 .home {
   width: 100%;
   /* Full width */
@@ -227,14 +188,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
-
-.aboutbox2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.aboutbox2{
   height: 600px;
   width: 600px;
   background-color: white;
@@ -264,111 +219,19 @@ body {
   /* Adds space below the heading */
   color: #fff;
 }
-
-/* About Section Paragraph */
-.aboutpara {
-  font-size: 1.2rem;
-  /* Font size for the paragraph */
-  margin-top: 20px;
-  /* Adds space above the paragraph */
-  color: white;
-}
-
-
-/* Product Section */
-.productandservices {
-  background-color: #ffffff;
-  /* Light green background */
-  padding: 60px 50px;
-  /* Padding inside the section */
-  text-align: center;
-  /* Centers the content */
-  height: auto;
-  /* auto height */
-}
-
-/* productandservices Section Heading */
-.productandservices h2 {
-  font-size: 2.5rem;
-  /* Font size for the heading */
-  margin-bottom: 20px;
-  /* Adds space below the heading */
-}
-
-/* productandservices Section Paragraph */
-.productandservices p {
-  font-size: 1rem;
-  /* Font size for the paragraph */
-  margin-top: 20px;
-  /* Adds space above the paragraph */
-}
-
-
-/*=================== Service Section Start =======================*/
-
-
-.services {
-  margin-top: 20px;
-  width: 100%;
-  height: 60vh;
-  background-color: #e4dfdf;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.services .services-title {
-  padding-top: 20px;
-  font-size: 30px;
-  color: rgb(3, 89, 170);
-}
-
-.services .services-subtitle {
-  font-size: 22px;
-  margin-bottom: 15px;
   
+  /* About Section Paragraph */
+.about p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    margin-top: 20px; /* Adds space above the paragraph */
 }
-.swiper {
-  width: 90%;
-  height: auto;
+/*about section div box*/
+.aboutbox{
+  
+ 
 }
-
-
-.swiper-wrapper .slide {
-  width: 100%;
-  height: auto;
-  display: flex;
-  gap: 20px;
-  padding: 18px; 
-  border-radius: 20px;
-  /* From https://css.glass */
-background: rgba(255, 255, 255, 0.12);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(9.5px);
--webkit-backdrop-filter: blur(9.5px);
-border: 1px solid rgba(255, 255, 255, 0.72);
-}
-
-.swiper-slide .slide-img {
-  width: 310px;
-  height: 260px;
-}
-
-.slide .slide-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-.swiper .swiper-pagination {
-  padding-top: 20px;
-}
-/*=================== Service Section End =======================*/
-
-
-/*=================== product =======================*/
+  
+  /* Product Section */
 .product {
   width: 100%;
   height: auto;
