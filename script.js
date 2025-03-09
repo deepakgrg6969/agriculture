@@ -1,5 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
-<<<<<<< HEAD
+
     spaceBetween: 20,
     grabCursor: true,
     loop: true,
@@ -34,23 +34,4 @@ var swiper = new Swiper(".mySwiper", {
 function toggleNav() {
   document.getElementById("sideNav").classList.toggle("active");
 
-  spaceBetween: 20,
-  grabCursor: true,
-  loop: true,
-  cssMode: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  breakpoints: {
-    1020: {
-        slidesPerView: 2,
-    },
-},
-  mousewheel: true,
-  keyboard: true,
-});
+}
